@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        questao q1 = new questao();
+        q1.pergunta = "Qual é o maior planeta do sistema solar?";
+        q1.opcaoA = "A)Terra";
+        q1.opcaoB = "B)Júpiter";
+        q1.opcaoC = "C)Saturno";
+        q1.opcaoD = "D)Netuno";
+        q1.opcaoE = "E)Urano";
+        q1.correta = "B";
+
+        q1.escrevaQuestao();
+        String resposta = q1.leiaResposta();
+        q1.isCorreta(resposta);
+//
+        questao q2 = new questao();
+        q2.pergunta = "2)Quem foi o primeiro presidente dos Estados Unidos?";
+        q2.opcaoA = "A)Thomas Jeferson";
+        q2.opcaoB = "B)George Washington";
+        q2.opcaoC = "C)Abraham Lincoln";
+        q2.opcaoD = "D)John Adams";
+        q2.opcaoE = "E)James Madison";
+        q2.correta = "B";
+
+        q2.escrevaQuestao();
+        resposta = q2.leiaResposta();
+        q2.isCorreta(resposta);
+//
+        questao q3 = new questao();
+        q3.pergunta = "3)Qual é o elemento químico com o símbolo 'Cu'?";
+        q3.opcaoA = "A)Prata";
+        q3.opcaoB = "B)Ouro";
+        q3.opcaoC = "C)Alumínio";
+        q3.opcaoD = "D)Cobre";
+        q3.opcaoE = "E)Platina";
+        q3.correta = "D";
+
+        q3.escrevaQuestao();
+        resposta = q3.leiaResposta();
+        q3.isCorreta(resposta);
+//
+        questao q4 = new questao();
+        q4.pergunta = "4)Qual país é conhecido como a Terra do Sol Nascente?";
+        q4.opcaoA = "A)";
+        q4.opcaoB = "B)";
+        q4.opcaoC = "C)";
+        q4.opcaoD = "D)";
+        q4.opcaoE = "E)";
+        q4.correta = "";
+
+        q4.escrevaQuestao();
+        resposta = q4.leiaResposta();
+        q4.isCorreta(resposta);
+//
+        questao q5 = new questao();
+        q5.pergunta = "5)Qual é a capital da Austrália?";
+        q5.opcaoA = "A)Sydney";
+        q5.opcaoB = "B)Melbourne";
+        q5.opcaoC = "C)Canberra";
+        q5.opcaoD = "D)Brisbane";
+        q5.opcaoE = "E)Perth";
+        q5.correta = "C";
+
+        q5.escrevaQuestao();
+        resposta = q5.leiaResposta();
+        q5.isCorreta(resposta);
