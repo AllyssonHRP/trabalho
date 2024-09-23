@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        questao q1 = new questao();
+        q1.pergunta = "Qual é o maior planeta do sistema solar?";
+        q1.opcaoA = "A)Terra";
+        q1.opcaoB = "B)Júpiter";
+        q1.opcaoC = "C)Saturno";
+        q1.opcaoD = "D)Netuno";
+        q1.opcaoE = "E)Urano";
+        q1.correta = "B";
+
+        q1.escrevaQuestao();
+        String resposta = q1.leiaResposta();
+        q1.isCorreta(resposta);
+//
+        questao q2 = new questao();
+        q2.pergunta = "2)Quem foi o primeiro presidente dos Estados Unidos?";
+        q2.opcaoA = "Thomas Jeferson";
+        q2.opcaoB = "George Washington";
+        q2.opcaoC = "Abraham Lincoln";
+        q2.opcaoD = "John Adams";
+        q2.opcaoE = "James Madison";
+        q2.correta = "B";
+
+        q2.escrevaQuestao();
+        resposta = q2.leiaResposta();
+        q2.isCorreta(resposta);
+//
+        questao q3 = new questao();
+        q3.pergunta = "3)Qual é o elemento químico com o símbolo 'Cu'?";
+        q3.opcaoA = "Prata";
+        q3.opcaoB = "Ouro";
+        q3.opcaoC = "Alumínio";
+        q3.opcaoD = "Cobre";
+        q3.opcaoE = "Platina";
+        q3.correta = "D";
+
+        q3.escrevaQuestao();
+        resposta = q3.leiaResposta();
+        q3.isCorreta(resposta);
